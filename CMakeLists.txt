@@ -501,7 +501,7 @@ install(FILES ${CMAKE_CURRENT_BINARY_DIR}/include/chibi/install.h
 install(FILES ${CMAKE_CURRENT_BINARY_DIR}/chibi-scheme.pc
     DESTINATION ${CMAKE_INSTALL_LIBDIR}/pkgconfig)
 
-add_library(chibi::chibi ALIAS libchibi-scheme)
+add_library(chibi::libchibi-scheme ALIAS libchibi-scheme)
 
 install(TARGETS libchibi-scheme libchibi-common chibi-scheme
     EXPORT chibi-scheme-targets
